@@ -1,9 +1,11 @@
 .container{
   text-align: center;
   align-content: center;
+  color: black;
 }
 
 .box{
+  background-color: aqua;
   width: 80px;
   height: 80px;
   border: 1px solid black;
@@ -15,4 +17,9 @@
   display: inline-flex;
   flex-wrap: wrap;
   width: 320px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(1,128,128,1) 100%);
 }

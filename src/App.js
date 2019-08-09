@@ -75,6 +75,7 @@ class App extends Component {
     return (
       <div className="container">
         <h1>Tic Tac Toe App</h1>
+        <br></br>
         <Status
           player={this.state.player}
           setPlayer={(e) => { this.setPlayer(e) }}
@@ -83,6 +84,7 @@ class App extends Component {
         <div className="board">
           {this.renderBoxes()}
         </div>
+        <br></br>
         <button disabled={!this.state.winner} onClick={() => this.reset()}> Reset</button >
       </div>
     );
